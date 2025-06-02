@@ -1,0 +1,51 @@
+body {
+    background-image: url("/media/bg_frfr_home.png");
+    background-size: 110% 100%;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: row;
+    width: 82%;
+    justify-content: center;
+    align-items: center;
+}
+
+.L {
+    margin: 3% 3% 3% 15%;
+    animation: scroll_animation 0.25s 0s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    animation-timeline: view();
+
+}
+
+.R {
+    margin: 3% 15% 3% 3%;
+    animation: scroll_animation 0.25s 0s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    animation-timeline: view();
+
+}
+
+.text {
+    padding: 0% 5%;
+    flex: 1;
+    text-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.6rem;
+}
+
+.image {
+    width: 30%;
+}
+
+
+@keyframes scroll_animation {
+    0% {
+        opacity: 0.3;
+    }
+
+    40% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,24 @@
+body {
+    padding: 200px 0 0 0;
+}
+
+a {
+    display: inline;
+    color: cyan;
+}
+
+.links {
+    padding-left: 20px;
+}
+
+.linkGPT {
+    align-items: center;
+    display: flex;
+    margin-top: 2px;
+}
+
+.linkGPT img {
+    width: 50px;
+    border-radius: 50%;
+    align-items: center;
+}

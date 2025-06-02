@@ -1,0 +1,55 @@
+.recap {
+    display: flex;
+    justify-content: space-evenly;
+    height: fit-content;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+
+.right {
+    background-color: rgb(16, 16, 16);
+
+
+    max-width: 30%;
+    flex: 1;
+    height: fit-content;
+    text-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.left {
+    background-color: rgb(16, 16, 16);
+    margin-top: 100px;
+    padding-top: 5px;
+    max-width: 30%;
+    flex: 1;
+    height: fit-content;
+    text-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+b {
+    display: block;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.right div,
+.left div {
+    background-color: rgb(30, 30, 30);
+    box-shadow: 0px 0px 5px aqua;
+    margin: 10px;
+    padding: 15px;
+    flex: 1;
+}
+
+.left div {
+    background-color: rgb(30, 30, 30);
+    box-shadow: 0px 0px 5px aqua;
+    margin: 10px;
+    flex: 1;
+}

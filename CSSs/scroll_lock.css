@@ -1,0 +1,139 @@
+.scroll_container p {
+    position: absolute;
+    z-index: 3;
+
+    font-weight: bold;
+    font-size: 3rem;
+    text-shadow: 0px 0px 10px pink;
+
+
+    animation: fade-in 0.25s 0s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    animation-timeline: view(15% 35%);
+    display: inline-flex;
+    opacity: 0;
+    transform: scale(.9);
+}
+
+@keyframes fade-in {
+    0% {
+        transform: scale(.9);
+        opacity: 0;
+        filter: blur (5px);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+
+/* .scroll-wrapper {
+    
+    height: 500px;
+   
+    background-color: aqua;
+    width: 100%;
+
+}  
+
+.scroll_test {
+    position: sticky;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background-color: blueviolet;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    animation: bagoshk linear;
+    animation-timeline: view(50% 50%);
+    animation-fill-mode: both;
+   
+} */
+
+/* @keyframes bagoshk {
+    0% {
+        transform: translateY(-50%) ;
+    }
+
+    100% {
+        transform: translateY(50%) ;
+    }
+} */
+
+
+/* .scroll_test {
+    display: flex;
+    animation: bagoshk 1s;
+    animation-timeline: view();
+    z-index: 10;
+    margin-bottom: 50%;
+
+}
+@keyframes bagoshk {
+    0% {
+        transform: translateY(0px);
+        width: 100%;
+    }
+
+    100% {
+        transform: translateY(50%);
+        width:130%;
+    }
+
+}  */
+.scroll_zone {
+    position: relative;
+    height: 120vh;
+    padding: 30% 0;
+
+    /* background-color: aqua; */
+
+    /* overflow: hidden; */
+}
+
+.scroll_container {
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50vh);
+    animation: followScroll linear;
+    animation-timeline: view(50% 50%);
+    animation-fill-mode: both;
+
+    /* background-color: green; */
+}
+
+@keyframes followScroll {
+    0% {
+        transform: translateY(-50vh);
+    }
+
+    100% {
+        transform: translateY(50vh);
+    }
+}
+
+.scroll_container img {
+    opacity: .5;
+    z-index: 2;
+    transform: scale(1);
+    animation: scaleUp;
+    animation-timeline: view(40% 50%);
+    animation-fill-mode: both;
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.25);
+    }
+}

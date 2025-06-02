@@ -1,0 +1,159 @@
+.button {
+    border-top: 3px solid rgb(0, 174, 174);
+    border-bottom: 3px solid rgb(0, 174, 174);
+    border-left: 8px double rgb(0, 174, 174);
+    border-right: 8px double rgb(0, 174, 174);
+    margin: 0 10px;
+    width: 200px;
+    height: 60px;
+    background-color: rgb(25, 25, 25);
+    color: white;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.retro-button-1 {
+    border-top: 3px solid cyan;
+    border-bottom: 3px solid cyan;
+    border-left: none;
+    border-right: none;
+
+    margin: 0 4px;
+    width: 245px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.retro-button-2 {
+    border-top: none;
+    border-bottom: none;
+    border-left: 8px double cyan;
+    border-right: 8px double cyan;
+
+    width: 200px;
+    height: 60px;
+    background-color: rgb(25, 25, 25);
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.L5 {
+    transform: skew(5deg);
+}
+
+.L5 span {
+    transform: skew(-5deg);
+}
+
+.R5 {
+    transform: skew(-5deg);
+}
+
+.R5 span {
+    transform: skew(5deg);
+}
+
+.L10 {
+    transform: skew(10deg);
+}
+
+.L10 span {
+    transform: skew(-10deg);
+}
+
+.R10 {
+    transform: skew(-10deg);
+}
+
+.R10 span {
+    transform: skew(10deg);
+}
+
+.L15 {
+    transform: skew(15deg);
+}
+
+.L15 span {
+    transform: skew(-15deg);
+}
+
+.R15 {
+    transform: skew(-15deg);
+}
+
+.R15 span {
+    transform: skew(15deg);
+}
+
+.L20 {
+    transform: skew(20deg);
+}
+
+.L20 span {
+    transform: skew(-20deg);
+}
+
+.R20 {
+    transform: skew(-20deg);
+}
+
+.R20 span {
+    transform: skew(20deg);
+}
+
+.L25 {
+    transform: skew(25deg);
+}
+
+.L25 span {
+    transform: skew(-25deg);
+}
+
+.R25 {
+    transform: skew(-25deg);
+}
+
+.R25 span {
+    transform: skew(25deg);
+}
+
+.L30 {
+    transform: skew(30deg);
+}
+
+.L30 span {
+    transform: skew(-30deg);
+}
+
+.R30 {
+    transform: skew(-30deg);
+}
+
+.R30 span {
+    transform: skew(30deg);
+}
+
+.L35 {
+    transform: skew(35deg);
+}
+
+.L35 span {
+    transform: skew(-35deg);
+}
+
+.R35 {
+    transform: skew(-35deg);
+}
+
+.R35 span {
+    transform: skew(35deg);
+}
